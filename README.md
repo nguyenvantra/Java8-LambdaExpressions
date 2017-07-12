@@ -64,5 +64,29 @@ Các tham số được đặc trong hai dấu đóng mở đơn **(params)**, k
 
 Body code của LamExp được đặt trong dấu đóng mở nhọn **{body}**, khi body code chỉ có một sử lý (thể hiện) thì không cần có dấu đóng mở nhọn.
 
+Example:
+Sắp xếp một tập hợp có sẵn
+
+```java
+List<String> fruits = Arrays.asList("Grapefruit", "Apple", "Durian","Cherry");
+ 
+Collections.sort(fruits, new Comparator<String>() {
+ 
+  	@Override
+  	public int compare(String o1, String o2) {
+      	return o1.compareTo(o2);
+  	}
+ 
+});
+```
+Sắp xếp một tập hợp có sẵn sử dụng lambda expressions
+```java
+List<String> fruits = Arrays.asList("Grapefruit", "Apple", "Durian", "Cherry");
+
+Collections.sort(fruits, (String o1, String o2) -> {
+	return o1.compareTo(o2);
+});
+```
+
 
 
