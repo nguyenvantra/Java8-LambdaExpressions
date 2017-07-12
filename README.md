@@ -47,7 +47,7 @@ public interface Interface1 {
 ## Lambda expressions
 Lambda expressions là một tính năng mới quan trọng trong Java 8. Lambda expressions giống class vô danh biểu diễn dưới dạng biểu thức. Chỉ bằng một biểu thức nó có thể biểu diễn thực thi cho method của functional interfaces. Functional interfaces là interface chỉ có 1 method. Lambda expressions cung cấp cách thức mới làm việc với Collection một cách đơn giản và hiệu quả, tăng hiệu năng (performance) của hệ thống chạy trong môi trường đa lõi (multicore).
 
-###Cấu trúc của lambda expressions
+### Cấu trúc của lambda expressions
 Agument list | Arrow tocken | Body
 ------------ | ------------- | -------------
 ```([Data type] [param1], [param2], [param_n])``` | ```->``` | ```{body};```
