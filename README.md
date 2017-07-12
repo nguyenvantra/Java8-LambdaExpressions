@@ -34,6 +34,7 @@ Bạn có thể sử dụng annotation **@FunctionalInterface** để đánh d�
 Example:
 
 ```java
+@FunctionalInterface
 public interface Interface1 {
 	void something();
 
@@ -42,6 +43,8 @@ public interface Interface1 {
 	}
 }
 ```
+
+## Lambda expressions
 
 
 
