@@ -88,5 +88,23 @@ Collections.sort(fruits, (String o1, String o2) -> {
 });
 ```
 
+## Functional Interface API
+Java 8 xây dựng sẵn một số lượng khá lớn các **Functional Interface**, chúng nằm trong package **java.util.function**
+
+### java.util.function.Consumer
+**Consumer** là một **Functional Interface** xây dựng sẵn của Java 8, nó có một method trừu tượng duy nhất chấp nhận một tham số đầu vào, và method này không trả về gì cả.
+
+Example:
+```java
+List<String> list = Arrays.asList("a", "b", "c", "a1", "a2");
+
+list.forEach((String t) -> {
+	System.out.println(t);
+});
+
+//Hoặc có thể sử dụng ngắn gọn hơn
+list.forEach((String t) -> System.out.println(t));
+```
+
 
 
