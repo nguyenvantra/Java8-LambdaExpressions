@@ -1,4 +1,5 @@
 # Java8-Lambda Expressions
+Những tính năng mới trong java8.
 
 ## Default Interface
 Java 8 cho phép bạn thêm 1 method không trừu tượng vào interface bằng cách sử dụng từ khoá **default**. Các method này được hiểu như các phương thức mở rộng.
